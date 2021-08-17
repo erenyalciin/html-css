@@ -1,0 +1,29 @@
+<!-- Let and var block scope difference -->
+<html>
+    <body>
+
+        <h2> Redeclaring a Variable Using let</h2>
+
+        <p id="demo"></p>
+
+        <script>
+        
+        let x = 10;
+        // Here x is 10
+
+        {
+            let x = 2;
+            // Here x is 2
+        }
+
+        document.getElementById("demo").innerHTML = x;
+        
+        </script>
+
+    </body>
+</html>
+
+<!-- the code between { let .. = .. } 
+is not going to accepted 
+BUT IN 'VAR' IT WILL BE ACCEPTED, YOU'LL SEE
+ON java29.html -->
