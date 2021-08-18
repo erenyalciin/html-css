@@ -1,2 +1,2 @@
-# html-css-js
+# html-css-
 Learning Html-Css From Jon Duckett
